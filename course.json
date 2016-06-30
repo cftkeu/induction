@@ -1,0 +1,259 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "title": "Exeter Adapt Theme",
+    "displayTitle": "Sponge Adapt",
+    "body": "A showcase of the Sponge Adapt theme using standard components, functionality and an assessment section!",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit your answer by clicking here."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show the correct answer by clicking here."
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My answer",
+            "ariaLabel": "Show the answer you gave by clicking here."
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.",
+                "instruction": ""
+            },
+            "_blank": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below.",
+                "instruction": ""
+            },
+            "_graphic": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_hotGraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "instruction": ""
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button.",
+                "instruction": ""
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below",
+                "instruction": ""
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.",
+                "instruction": ""
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.",
+                "instruction": ""
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below.",
+                "instruction": ""
+            },
+            "_text": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_textInput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below.",
+                "instruction": ""
+            }
+        },
+        "_extensions": {
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            }
+        },
+        "_accessibility": {
+            "_accessibilityToggleTextOn": "Turn accessibility on?",
+            "_accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "page": "Page",
+                "pageLoaded": "Page Loaded.",
+                "pageEnd": "You have reached the end of the page.",
+                "previous": "Back",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Open course resources.",
+                "close": "Close",
+                "closeDrawer": "Close Drawer",
+                "closeResources": "Close resources",
+                "resourcesEnd": "You have reached the end of the list of resources.",
+                "drawerBack": "Back to drawer",
+                "drawer": "Top of side drawer",
+                "closePopup": "Continue",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "Incorrect",
+                "correct": "Correct",
+                "locked": "Locked",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "feedbackPopUp": "Popup opened.",
+                "menuHome": "Back to home",
+                "menuBack": "Back to menu",
+                "visited": "Visited"
+            }
+        }
+    },
+    "_latestTrackingId": 78,
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_altText": "of components completed on this page."
+    },
+    "_glossary": {
+        "_isEnabled": true,
+        "title": "Glossary",
+        "description": "Click here to view glossary for this course",
+        "searchPlaceholder": "Search",
+        "searchWithInDescriptionLabel": "Search within description",
+        "itemNotFoundMessage": "Sorry! No results to display",
+        "_glossaryItems": [
+            {
+                "term": "The framework",
+                "description": "<p>The Adapt Framework is a generic, reusable codebase for e-learning courses.</p><p>The Adapt Framework is designed to work with the Adapt Authoring Tool (as soon as this is released) but can also be used in isolation.</p>"
+            },
+            {
+                "term": "Framework examples",
+                "description": "<p><a href='https://community.adaptlearning.org/mod/forum/discuss.php?d=244' target='_blank'>Click here to view Real Life Adapt examples</a></p>"
+            },
+            {
+                "term": "Community site",
+                "description": "<p><a href='https://community.adaptlearning.org' target='_blank'>Click here to view our community site</a></p>"
+            },
+            {
+                "term": "YouTube channel",
+                "description": "<p><a href='https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ' target='_blank'>Click here to view Adapt Learning YouTube Channel</a></p>"
+            }
+        ]
+    },
+    "_resources": {
+        "title": "Resources",
+        "description": "View resources for this course by clicking here.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "Document",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_filterAria": {
+            "allAria": "View all resources",
+            "documentAria": "View document resources",
+            "mediaAria": "View media resources",
+            "linkAria": "View resource links"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "media",
+                "title": "Sponge UK YouTube channel",
+                "description": "Click here to see what we're up to.",
+                "_link": "https://www.youtube.com/channel/UCp-9xyQ2zeRph81pRsYoIvA"
+            },
+            {
+                "_type": "link",
+                "title": "Sponge UK website",
+                "description": "Click here to check out the Sponge UK website.",
+                "_link": "http://www.spongeuk.com/"
+            },
+            {
+                "_type": "document",
+                "title": "PDF download",
+                "description": "Click here to download an example PDF file.",
+                "_link": "course/en/resources/placeholder.pdf"
+            }
+        ]
+    },
+    "_popups": [
+        {
+            "_id": "popup-first",
+            "title": "First Popup",
+            "drawerTitle": "",
+            "_showInDrawer": true,
+            "description": "Doe - a deer; a female deer",
+            "body": "<p>Lorem ipsum Laboris eiusmod irure deserunt veniam ad esse fugiat non irure aliqua in non magna cupidatat in enim mollit in anim sit non proident exercitation nulla esse magna id magna qui fugiat eiusmod velit sint sunt.</p>",
+            "_video": {
+                "_after": {
+                    "mp4": "course/en/video/sponge-video.mp4",
+                    "ogv": "course/en/video/sponge-video.ogv",
+                    "poster": "course/en/video/sponge-video.png"
+                }
+            }
+        },
+        {
+            "_id": "popup-second",
+            "title": "Second Popup",
+            "drawerTitle": "2nd Popup",
+            "_showInDrawer": true,
+            "description": "Re - a drop of golden sun",
+            "body": "<p>Lorem ipsum Laboris eiusmod irure deserunt veniam ad esse fugiat non irure aliqua in non magna cupidatat in enim mollit in anim sit non proident exercitation nulla esse magna id magna qui fugiat eiusmod velit sint sunt.</p>",
+            "_image": {
+                "_after": {
+                    "src": "course/en/images/popup/full.png"
+                }
+            }
+        },
+        {
+            "_id": "popup-third",
+            "title": "Third Popup",
+            "drawerTitle": "",
+            "_showInDrawer": false,
+            "description": "Mi - a name I call myself",
+            "body": "<p>Lorem ipsum Laboris eiusmod irure deserunt veniam ad esse fugiat non irure aliqua in non magna cupidatat in enim mollit in anim sit non proident exercitation nulla esse magna id magna qui fugiat eiusmod velit sint sunt.</p>"
+        }
+    ],
+    "_assessment": {
+        "_postTotalScoreToLms": true,
+        "_isPercentageBased": true,
+        "_scoreToPass": 75,
+        "_requireAssessmentPassed": true
+    },
+    "_bookmarking": {
+        "_isEnabled": true,
+        "_level": "block",
+        "title": "Bookmarking",
+        "body": "<h5>Bookmarking</h5><p>Would you like to continue where you left off?</p>",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    }
+}

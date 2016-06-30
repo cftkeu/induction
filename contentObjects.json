@@ -1,0 +1,23 @@
+[
+	{
+		"_id": "co-01",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "White backgrounds",
+		"displayTitle": "White backgrounds",
+		"pageBody": "",
+		"body": "<p>In this section we showcase the full range of standard components available in Adapt 2.0.</p><p>Here we see the components placed on a white background.</p>",
+		"_graphic": {
+			"src": "course/en/images/menu/image1.jpg",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "Start",
+		"linkTextLocked": "Locked",
+		"duration": "10 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+	
+]

@@ -1,0 +1,205 @@
+[
+
+ {
+        "_id": "c-01",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "col-4 col-medium-2",
+        "_layout": "left",
+        "title": "Column 4/12",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/component/graphic/desktop-col-8.png",
+            "small": "course/en/images/component/graphic/tablet-col-6.png",
+            "alt": "USEFUL",
+            "attribution": ""
+        }
+},
+    
+    {
+        "_id": "c-02",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "col-4 col-medium-2",
+        "_layout": "right",
+        "title": "Text sample",
+        "displayTitle": "Text sample",
+        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo lectus mattis, facilisis eros eget, iaculis lorem. Aliquam vel convallis ligula, eget bibendum lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",
+        "instruction": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+{
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "matching",
+        "_classes": "col-6 col-medium-3 col-small-2",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "title": "Matching",
+        "displayTitle": "Matching",
+        "body": "<p>This question component presents the user with one or more drop-down style questions. Upon submission, feedback can be provided for correct, incorrect and partially correct answers.</p><ul><li>The number of attempts allowed may be configured</li><li>Each drop-down may contain its own set of options</li><li>Each drop-down can only include a single correct answer</li><li>The 'correct answer' button can be disabled</li><li>Options can be randomised</li></ul>",
+        "instruction": "<p>Choose an option from each drop down list and select Submit.</p>",
+        "placeholder": "Select an option",
+        "_items": [
+            {
+                "text": "Proin fermentum sapien sit amet dui ullamcorper maximus?",
+                "_options": [
+                    {
+                        "text": "Lorem ipsum dolor sit amet",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Nunc orci justo, ultricies vel lobortis eu",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Cras non neque ex",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Correct",
+                        "_isCorrect": true
+                    }
+                ]
+            },
+            {
+                "text": "Nunc et hendrerit nunc?",
+                "_options": [
+                    {
+                        "text": "Correct",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "Vivamus",
+                        "_isCorrect": false
+                    }
+                ]
+            },
+            {
+                "text": "Nunc et hendrerit nunc. Phasellus dolor mi, efficitur at odio vel, interdum placerat nisi?",
+                "_options": [
+                    {
+                        "text": "Vivamus ut feugiat velit, vitae rhoncus sem",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Correct",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "Suspendisse et consequat nisl",
+                        "_isCorrect": false
+                    }
+                ]
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Well done!</h5><p>Aliquam erat volutpat. Donec dui neque, suscipit at semper ullamcorper, ullamcorper vitae arcu. Nunc orci justo, ultricies vel lobortis eu, dapibus ut tellus.</p><p>Donec consequat elit eget nisi viverra, vel finibus justo condimentum. Etiam eleifend ornare purus eget pharetra. Phasellus tempus, leo quis egestas ullamcorper, velit mi maximus nunc, a tincidunt erat nulla at lorem. Ut sit amet magna nec risus interdum sagittis.</p>",
+            "_partlyCorrect": {
+                "final": "<h5>Not quite!</h5><p>Aliquam erat volutpat. Donec dui neque, suscipit at semper ullamcorper, ullamcorper vitae arcu. Nunc orci justo, ultricies vel lobortis eu, dapibus ut tellus.</p><p>Donec consequat elit eget nisi viverra, vel finibus justo condimentum. Etiam eleifend ornare purus eget pharetra. Phasellus tempus, leo quis egestas ullamcorper, velit mi maximus nunc, a tincidunt erat nulla at lorem. Ut sit amet magna nec risus interdum sagittis.</p>"
+            },
+            "_incorrect": {
+                "final": "<h5>Not quite!</h5><p>Aliquam erat volutpat. Donec dui neque, suscipit at semper ullamcorper, ullamcorper vitae arcu. Nunc orci justo, ultricies vel lobortis eu, dapibus ut tellus.</p><p>Donec consequat elit eget nisi viverra, vel finibus justo condimentum. Etiam eleifend ornare purus eget pharetra. Phasellus tempus, leo quis egestas ullamcorper, velit mi maximus nunc, a tincidunt erat nulla at lorem. Ut sit amet magna nec risus interdum sagittis.</p>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+{
+        "_id": "c-06",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "col-4 col-medium-2",
+        "_layout": "right",
+        "title": "Column 4/12",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "large": "course/en/images/component/graphic/desktop-col-8.png",
+            "small": "course/en/images/component/graphic/tablet-col-6.png",
+            "alt": "USEFUL",
+            "attribution": ""
+        }
+},
+
+ {
+        "_id": "c-10",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "slider",
+        "_classes": "col-12 col-medium-6 col-small-2",
+        "_layout": "full",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_showNumber": true,
+        "_showScaleIndicator": true,
+        "_scaleStart": 1,
+        "_scaleEnd": 10,
+        "title": "Slider",
+        "displayTitle": "Slider",
+        "body": "<p>This question component requires the learner to position a slider along a scale. Upon submission, feedback can be provided for correct, incorrect and partially correct answers.</p><ul><li>The number of attempts allowed may be configured</li><li>The correct answer can be a single number (e. g. 7)</li><li>Or a correct range can be specified (e. g. between 5-10)</li><li>The 'correct answer' button can be disabled</li></ul>",
+        "instruction": "<p>Drag the slider to make your choice and select Submit.</p>",
+        "labelStart": "Start",
+        "labelEnd": "End",
+        "_correctAnswer": "",
+        "_correctRange": {
+            "_bottom": 10,
+            "_top": 10
+        },
+        "_feedback": {
+            "correct": "<h5>Well done!</h5><p>Aliquam erat volutpat. Donec dui neque, suscipit at semper ullamcorper, ullamcorper vitae arcu. Nunc orci justo, ultricies vel lobortis eu, dapibus ut tellus.</p><p>Donec consequat elit eget nisi viverra, vel finibus justo condimentum. Etiam eleifend ornare purus eget pharetra. Phasellus tempus, leo quis egestas ullamcorper, velit mi maximus nunc, a tincidunt erat nulla at lorem. Ut sit amet magna nec risus interdum sagittis.</p>",
+            "_incorrect": {
+                "final": "<h5>Not quite!</h5><p>Aliquam erat volutpat. Donec dui neque, suscipit at semper ullamcorper, ullamcorper vitae arcu. Nunc orci justo, ultricies vel lobortis eu, dapibus ut tellus.</p><p>Donec consequat elit eget nisi viverra, vel finibus justo condimentum. Etiam eleifend ornare purus eget pharetra. Phasellus tempus, leo quis egestas ullamcorper, velit mi maximus nunc, a tincidunt erat nulla at lorem. Ut sit amet magna nec risus interdum sagittis.</p>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+   
+{
+        "_id": "c-20",
+        "_parentId": "b-15",
+        "_type": "component",
+        "_component": "sponge-returnToMenu",
+        "_classes": "col-12 col-medium-6 col-small-2",
+        "_layout": "full",
+        "title": "Section complete",
+        "displayTitle": "Section complete",
+        "body": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>",
+        "instruction": "<p>Select the button below to return to the menu.</p>",
+        "_homeButton": {
+            "text": "Return to Menu"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    }
+
+
+
+
+
+
+
+
+
+]
